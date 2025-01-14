@@ -1,0 +1,6 @@
+<center><h2>Shoping - Basket:</h2></center>
+<br>
+{{X}}
+<br>
+Price is in EUR. 
+<br>

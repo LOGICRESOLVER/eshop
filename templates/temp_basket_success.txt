@@ -1,0 +1,22 @@
+
+<div class='banner_cont'>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		Payment is sucess, BUY accepted. Result info send on your email.
+		</div>
+		<div class='banner_half_box'>
+        		
+		</div>
+	</div>
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		Your set email address:
+		</div>
+		<div class='banner_half_box'>
+        		{{USER_EMAIL}}
+		</div>
+	</div>
+
+</div>

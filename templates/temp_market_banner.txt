@@ -1,0 +1,38 @@
+
+<div class='market_cont'>
+
+	<div class='market_row'>
+		<div class='market_box_label'>
+        		<b>{{LABBEL}}</b>
+		</div>
+	</div>
+
+
+	<div class='market_row'>
+		<div class='market_img_outside'>	
+			<div class='market_img_inside'>			
+				<img src="{{IMG}}">
+			</div>
+		</div>
+	</div>
+
+
+	<div class='market_row'>
+		<div class='market_box_text'>
+        		{{TEXT}}  
+		</div>
+	</div>
+
+
+	<div class='market_row'>
+		<div class='market_half_box'>
+        		
+		</div>
+		<div class='market_half_box'>
+        		<b>{{PRICE}}</b>
+		</div>
+	</div>
+
+
+</div>
+

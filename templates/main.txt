@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>NOOTROPICMARKET</title>
+	<meta charset="UTF-8">
+	{{style}}
+</head>
+
+<body>
+
+
+
+<div class='sig_page'>
+
+	<div class='sig_page_row'>
+		<div class='sig_page_vertical_full_top'>
+        		&nbsp; &nbsp; &nbsp;  NOOTROPIC.NOIZ.CZ
+		</div>
+
+	</div>
+
+
+
+	<div class='sig_page_row'>
+		<div class='sig_nav_inside'>
+			<div class='sig_nav_box_1'>
+				<div class='logo_outside'>	
+					<div class='logo_inside'>			
+						<img src="static/frog.gif">
+					</div>
+				</div>
+			</div>
+			<div class='sig_nav_box_2'>
+
+
+				<a href="/nav_bar?id=home">
+				<button class="button-43" role="button">HOME</button>				
+				</a>
+				<div class="nav_empty_button">..</div>
+				<a href="/nav_bar?id=about_us">
+				<button class="button-43" role="button">ABOUT_US</button>		
+				</a>
+				<div class="nav_empty_button">..</div>
+				<a href="/nav_bar?id=account">
+				<button class="button-43" role="button">ACCOUNT</button>		
+				</a>
+				<div class="nav_empty_button">..</div>
+				<a href="/nav_bar?id=basket">
+				<button class="button-43" role="button">
+						<div class="img_button_box">
+							<img src="static/img_basket.png">        
+						</div>
+				</button>		
+				</a>
+				<div class="nav_empty_button">..</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class='sig_page_row_main'>
+		<div class='sig_pahe_horizontal_menu'>
+        		{{menu}}
+		</div>
+		<div class='sig_pahe_horizontal_article'>
+			<div class='sig_article_inside'>
+				{{page}}
+
+			</div>
+		</div>
+		<div class='sig_pahe_horizontal_aside'>
+			
+				{{aside}}
+        		
+		</div>
+	</div>
+
+	<div class='sig_page_row'>
+		<div class='sig_page_vertical_full_down'>
+        		&nbsp; &nbsp; {{footer}}
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+

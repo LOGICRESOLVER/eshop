@@ -1,0 +1,105 @@
+
+.menu_cont {
+  /*padding: 1%;*/  
+  /*margin: 1%;*/
+  flex-direction: column;
+  flex: 1;
+  width: 250px;
+  height: 100%;
+  /*border-radius: 14px;*/
+  border-bottom: 10px solid #7C7C7C;
+  border-top: 10px solid #7C7C7C;
+}
+
+
+/*========================*/
+
+
+.menu_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
+/*========================*/
+
+
+.munu_label {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+}
+
+
+/*========================*/
+
+.munu_button {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*background-color: #EEEEEE;*/
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  height: 150%;
+  width: 100%;
+  padding: 3% 10%;
+  margin: 1%;
+  /*text-align: center;*/
+  border-radius: 4px;
+  color: white;
+}
+
+.munu_button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  text-decoration: none;
+  color: white;
+}
+
+.munu_button a:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+  color: white;
+  border-radius: 4px;
+}
+
+
+
+/*========================*/
+
+.menu_sub_button {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  background-color: #E4E4E4;
+  width: 70%;
+  padding: 3%;  
+  /*border: 1px solid black;*/
+  margin: 1%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.menu_sub_button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+}
+
+.menu_sub_button a:hover {
+  background-color: #555;
+  color: white;
+  display: flex;
+}
+
+
+

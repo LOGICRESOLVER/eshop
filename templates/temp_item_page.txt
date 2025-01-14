@@ -1,0 +1,75 @@
+
+<div class='item_cont'>
+
+
+	<div class='item_row'>
+		<div class='item_box'>
+        		<div class='item_empty'>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class='item_row'>
+		<div class='item_label_box'>
+        		<b>{{LABEL}}</b>
+		</div>
+	</div>
+
+
+	<div class='item_row'>
+		<div class='item_box'>
+        		<div class='item_empty'>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class='item_row'>
+		<div class='item_half_box'>	
+			<div class="img_container">
+				<div class="img_box">
+					<img src="{{IMG}}">        
+				</div>
+			</div>
+		</div>
+
+		<div class='item_half_box'>
+			<div class="banner_convertor">
+				<br>
+				{{TEXT_1}}
+			</div>
+		</div>
+	</div>
+
+	<div class='item_row'>
+		<div class='item_box'>
+        		<div class='item_empty'>
+
+			</div>
+		</div>
+	</div>
+
+	<div class='item_row'>
+		<div class='item_box'>
+			{{TEXT_2}}        		
+		</div>
+	</div>
+
+	<div class='item_row'>
+		<div class='item_box'>
+        		<div class='item_empty'>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class='item_row'>
+		<div class='item_box'>
+        		{{TEXT_3}}
+		</div>
+	</div>
+
+</div>

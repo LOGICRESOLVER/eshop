@@ -1,0 +1,74 @@
+
+<div class='banner_cont'>
+	<div class='banner_row'>
+		<div class='banner_box'>
+        		BTC Transaction created, For Paying use this instruction:
+		</div>
+	</div>
+	
+	<div class='banner_row'>	
+			<div class='basket_mess'>			
+
+				
+				<p><b>Instruction: </b> For confrim your buy send {{PRICE}} BTC to Address (Market BTC wallet): {{ADDRESS}}. 
+				Price must be sended like same value, for evidency transaction. Transaction has 45 minute to expiration! 
+				Actual BTC currency (in EUR) is {{CURRENCY}}.</p>
+
+			</div>
+	</div>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			To BTC address:
+		</div>
+		<div class='banner_half_box'>
+			{{ADDRESS}}
+		</div>
+	</div>
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Price [mBTC]:
+		</div>
+		<div class='banner_half_box'>
+			{{PRICE}}
+		</div>
+	</div>
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Transaction status:
+		</div>
+		<div class='banner_half_box'>
+			{{STATUS}}
+		</div>
+	</div>
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Transaction detail send to:
+		</div>
+		<div class='banner_half_box'>
+			{{EMAIL}}
+		</div>
+	</div>
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Set your pay request:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+				{{CONFRIM}}	
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+
+</div>
+
+
+
+
+

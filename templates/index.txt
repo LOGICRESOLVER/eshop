@@ -1,0 +1,18 @@
+<h1>WELLCOME</h1>
+<br>
+This page is <b> NOOTROPICMARKET.com </b>. is it webpage about nootropic and too E-SHOP with lots of nootropics.
+<br>
+<h3>About Nootropics</h3>
+<br>
+Nootropics (/noʊ.əˈtroʊpɪks/ noh-ə-TROHP-iks or /noʊ.əˈtrɒpɪks/ noh-ə-TROP-iks;[1] but not /njuːˈtroʊpɪks/ new-TROHP-iks or /njuːˈtrɒpɪks/ new-TROP-iks,[1] which are common mispronunciations), colloquially brain supplements, smart drugs and cognitive enhancers, are natural, semisynthetic or synthetic compounds which purportedly improve cognitive functions, such as executive functions, attention or memory.
+
+While commonly in the form of dietary supplements, nutraceuticals or energy drinks,[2] some nootropic compounds are prescription and non-prescription drugs in various countries.
+
+In the United States, the Federal Trade Commission and FDA have warned manufacturers and consumers about possible advertising fraud and marketing scams concerning nootropic supplements.[3][4]
+
+<div class="img_container">
+	<div class="img_box">
+		<img src="static/noot.png">
+	</div>
+</div>
+	

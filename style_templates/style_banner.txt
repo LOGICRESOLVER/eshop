@@ -1,0 +1,131 @@
+
+.banner_cont {
+  padding: 2%;  
+  margin: 1%;
+  border: 4px dashed black;
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-wrap: wrap; 
+  /*border-radius: 15px;*/
+  background-color: #FEF4F2;
+  font-size: 110%;
+}
+
+
+/*========================*/
+
+
+.banner_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+
+/*========================*/
+
+
+.banner_box {
+  height: 30px;
+  width: 100%;
+  padding: 3%;
+  /*text-align: center;*/
+}
+
+/*========================*/
+
+
+
+.banner_half_box {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50%;
+  padding: 3%;
+  /*text-align: center;*/
+}
+
+/*========================*/
+
+.banner_convertor{
+  display: flex;
+  flex-grow: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/*========================*/
+
+
+.banner_button {
+  border-radius: 8px;
+  font-size:17px;
+  text-align: center;
+  display: flex;
+  /*height: 90%;*/
+  background-color: #9babaf;
+  /*width: 80%;*/
+  padding: 3%;  
+  border: 3px solid white;
+  margin: 2%;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.banner_button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+
+.banner_button a:hover {
+  background-color: #555;
+  color: white;
+  display: flex;
+}
+
+
+/*========================*/
+
+
+.banner_small_box {
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+
+  font-size: 80%;
+  /*width: 11%;*/
+  /*text-align: center;*/
+}
+
+
+/*========================*/
+
+
+.basket_restrictor {
+  display: flex;
+  flex: 1; 
+  width: 50%;
+  margin: 3%;}
+
+input{
+display: flex;
+border: none;
+flex-grow: 0;
+flex: 1;
+width: 100%;
+}
+

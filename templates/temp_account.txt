@@ -1,0 +1,62 @@
+
+<br>
+<center>
+<div class='banner_cont'>
+
+	<div class='banner_row'>
+		<div class='banner_box'>
+        		<h1>ACCOUNT</h1>
+		</div>
+	</div>
+
+
+
+	<div class='banner_row'>
+		<div class='banner_box'>
+        		
+		</div>
+	</div>
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Username:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+				<form method="POST" action="/call_from_page">        		
+				<input name="num" id="num" size="60" placeholder="0">
+			</div>	
+		</div>
+	</div>
+
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Password:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+				<input name="num" id="num" size="60" placeholder="0">
+			</div>	
+		</div>
+	</div>
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		...
+		</div>
+		<div class='banner_half_box'>
+
+				<div class='banner_convertor'>
+					<div class='banner_button'>
+						LOGIN
+					</form>
+				</div>
+		</div>
+	</div>
+
+</div>
+</center>

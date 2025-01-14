@@ -1,0 +1,1 @@
+var {{OUT_STRING}} = {{IN_STRING}}.substring({{IN_STRING}}.lastIndexOf("{{UP_SUBSTRING}}")+1,{{IN_STRING}}.lastIndexOf("{{DOWN_SUBSTRING}}"));

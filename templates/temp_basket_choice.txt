@@ -1,0 +1,37 @@
+
+<div class='banner_cont'>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		Choice payment method:
+		</div>
+		<div class='banner_half_box'>
+        		
+		</div>
+	</div>
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		Payment via Bitcoin (crypto).	
+		</div>
+		<div class='banner_half_box'>
+        		Payment via banking Card.
+		</div>
+	</div>
+
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+				{{BUTTON_BTC}}
+			</div>
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+        			{{BUTTON_CARD}}
+			</div>
+		</div>
+	</div>
+</div>
+

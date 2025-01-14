@@ -1,0 +1,6 @@
+ -1) Ve funkci ses = server.chech() nastavit pri vytvareni ses, v pripade 
+ze je vytvorena nova ses provest akci: aktualni url = __url --> url pro set_cookies 
+[kde nastavit dobu expirace cookies napr na 90 dni.] a nasledne na teto url 
+pro set_cookies provest redirect na __url.
+
+ -2) Dodelat market.

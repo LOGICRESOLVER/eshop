@@ -1,0 +1,79 @@
+
+<div class='banner_cont'>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		NAME:
+		</div>
+		<div class='banner_half_box'>
+        		{{NAME}}
+		</div>
+	</div>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		PRODUCT_ID:
+		</div>
+		<div class='banner_half_box'>
+        		{{ID}}
+		</div>
+	</div>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		PRICE [1pcs]:
+		</div>
+		<div class='banner_half_box'>
+        		{{PRICE}}
+		</div>
+	</div>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		PCS:
+		</div>
+		<div class='banner_half_box'>
+        		{{PCS}}
+		</div>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		...
+		</div>
+		<div class='banner_half_box'>
+        		...
+		</div>
+
+	</div>
+<!--
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			<form method="POST" action="/call_from_page">        		
+			<input name="num", id="num", placeholder="0">
+			</form>
+			</div>	
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+			<form method="POST" action="/call_from_page">        		
+				<input type="submit">
+			</form>
+			<form method="POST" action="/call_from_page">        		
+				<button><b> -1 </b></button>
+			</form>
+			<form method="POST" action="/call_from_page">        		
+				<button><b> +1 </b></button>
+			</form>
+			</div>	
+		</div>
+	</div>
+-->
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+				<b><h2>{{TOT_PRICE}}</h2></b>
+			</div>
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+				{{BUY}}
+			</div>
+		</div>
+	</div>
+</div>

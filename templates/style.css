@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+/*__body_style__*/
+body {
+  font-family: 'sans-serif', monospace;
+  margin: 0;
+  height: calc(100% - fullscreen) 100%; 
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.field__input input {
+  width: 0;
+  min-width: 100%;
+  
+}
+
+/*__Style_for_static_menu_bar__*/
+.navbar {
+  display: flex;
+  /*flex: 1;*/
+  align-items: flex-end;
+
+  background-color: #333;
+  /*border:  1px solid black;*/
+  /*height: 20%;*/
+  /*padding-left: 1%;*/
+  /*padding-right:1%;*/
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: rgb(186, 180, 180);
+  /*font-size: 15px;*/
+  
+
+  justify-content: right;
+
+
+}
+
+
+.navbar > div {
+    padding-left: 1%;
+    padding-right:1%; 
+    /*flex-grow: 2;*/
+}
+
+/*__Style_for_static_menu_bar__elements*/
+.navbar a {
+  color: #333;
+  /*padding: 14px 20px;*/
+  text-decoration: none;
+  text-align: center;
+  height: 2%;
+  
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:  #333;
+  color: rgb(186, 180, 180);
+}
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Side menu bar */
+.side {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  background-color:  #333;
+  flex-direction: column;
+  max-height: 100%;
+  max-width: 8%;  
+  /*min-width: 0;*/
+  /*
+  min-height: 0;*/
+  text-align: center;
+  align-items: center;
+  
+
+  /*align-content: space-around;*/
+  /*border:  1px solid black;*/
+  /*padding: 20px;*/
+}
+
+.side > div {
+  background-color: #333;
+  /*display: flex-basis;*/ /*mujtest*/
+  /*flex-wrap: wrap;
+  /*min-width: 0;*/
+  /*min-height: 0;*/
+  /*width: 100px;*/
+  /*width: 100%;*/
+  /*padding-left:30%;*/
+  /*padding-right:30%; */
+  /*padding-top: 30%;*/
+  /*padding-bottom:30%;*/
+  margin: 7%;
+  /*line-height: 120px;*/
+  /*font-size: 15em;*/
+  color: rgb(186, 180, 180);
+  /*max-width: 10%;*/
+  
+}
+
+
+/* Main column */
+.main {
+  flex: 1;
+  background-color: rgb(227, 227, 227);
+  overflow-x: scroll;
+  overflow-y: scroll;
+  /*height: 600px;*/
+  /*padding: 20px;*/
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 100%) {
+  .main, .navbar {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 100%) {
+  .side, .navbar {   
+    flex-direction: column;
+  }
+}
+
+
+/*my*/
+@media screen and (max-width: 100%) {
+  .side, .main {   
+    flex-direction: row;
+  }
+}
+
+
+
+/*my*/
+@media screen and (max-height: 100) {
+  .side, .main {   
+    flex-direction: column;
+  }
+}
+
+
+
+
+.shrink { 
+transition: all .1s ease-in-out; 
+}
+
+.shrink:hover { 
+transform: scale(0.95); 
+}
+
+/*============<button>=============*/
+
+.app_button {
+
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-align: left;
+  vertical-align: top;
+  padding: calc(.875rem - 3px) 63px calc(.875rem - 3px) 15px;
+  background-color:  #2d2d2d;
+  font-size: 18px;
+  letter-spacing: 0.16px;
+  min-height: 48px;
+  line-height: 1.29;
+  color: rgb(222, 222, 222);
+  font-weight: 400;
+  transition: background 70ms cubic-bezier(0,0,.38,.9),box-shadow 70ms cubic-bezier(0,0,.38,.9),border-color 70ms cubic-bezier(0,0,.38,.9),outline 70ms cubic-bezier(0,0,.38,.9);
+}
+  .app_button:hover {
+      background-color: #2d2d2d;
+  }
+
+
+
+
+
+/*============</button>=============*/
+
+
+
+

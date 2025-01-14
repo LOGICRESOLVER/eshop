@@ -1,0 +1,125 @@
+
+
+
+<div class='banner_cont'>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		SHIPPING ADDRESS:
+		</div>
+		<div class='banner_half_box'>
+        		
+		</div>
+	</div>
+	
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Full name:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			<form method="POST" action="/call_from_page?id=basket_NEXT_SHIPP">         		
+			<input name="full_name", id="full_name", placeholder="full name">
+			
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+
+	
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Street:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			        		
+			<input name="street", id="street", placeholder="street">
+			
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+
+	
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			City:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			        		
+			<input name="city", id="city", placeholder="city">
+			
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+
+	
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			ZIP-Code:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			        		
+			<input name="zip", id="zip", placeholder="zip">
+			
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+	
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Country:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+      		
+			<input name="country", id="country", placeholder="country">
+			
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+
+		</div>
+		<div class='banner_half_box'>
+        		
+
+				<div class='banner_convertor'>
+				        <input type="submit" class="banner_button">
+				
+				</div>
+				</form>	
+
+					<!--{{X}}-->
+				
+
+				
+
+
+
+		</div>
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

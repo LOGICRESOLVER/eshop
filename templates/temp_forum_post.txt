@@ -1,0 +1,20 @@
+
+	<div class='forum_row'>
+		<div class='forum_post_small'>
+ 			<b>{{USER}} [{{DATE}}].</b>
+		</div>
+	</div>
+
+	<div class='forum_row'>
+		<div class='forum_post_box'>
+			{{POST}}
+		</div>
+	</div>
+
+
+	<div class='forum_row'>
+		<div class='forum_empty'>
+ 			
+		</div>
+	</div>
+

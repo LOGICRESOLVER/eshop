@@ -1,0 +1,22 @@
+
+<div class='banner_cont'>
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		Payment is failed, BUY not proccesed.
+		</div>
+		<div class='banner_half_box'>
+        		
+		</div>
+	</div>
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		
+		</div>
+		<div class='banner_half_box'>
+        		...
+		</div>
+	</div>
+
+</div>

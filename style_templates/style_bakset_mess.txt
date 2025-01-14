@@ -1,0 +1,29 @@
+
+.basket_mess {  
+  margin: 1%;
+  padding: 2%;
+  flex-direction: row;
+  flex: 1;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(254,254,216,0.85);
+  border-radius: 11px;
+  flex-wrap: nowrap;
+}
+
+
+
+td {
+margin: 1%; 
+/*border: 1px solid black;*/
+
+}
+
+
+tr {
+
+border: 1px solid black;
+
+}

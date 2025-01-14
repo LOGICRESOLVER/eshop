@@ -1,0 +1,5 @@
+<div class='menu_row'>
+	<div class='menu_sub_button'>
+		<a href="/menu?id={{X}}">{{X}}</a>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+<div class='menu_cont'>
+	<div class='menu_row'>
+		<div class='munu_label'>
+        		<b>CATEGORY:</b>
+		</div>
+	</div>
+	{{X}}
+	<div class='munu_label'>
+        	...
+	</div>
+
+</div>

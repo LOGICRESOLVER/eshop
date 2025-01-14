@@ -1,0 +1,94 @@
+
+<div class='banner_cont'>
+	<div class='banner_row'>
+		<div class='banner_box'>
+        		Pay with your banking identity values or Pay via external Pay-Gate:
+		</div>
+	</div>
+	
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Pay via GoPay Pay-Gate:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+				{{GENERATE_PAYGATE_CARD}}	
+			</div>
+		</div>
+	</div>
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+		
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+				...	
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Card Number:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			<form method="POST" action="/call_from_page?id=CONFRIM_CARD">        		
+			<input name="card_number", id="card_number", placeholder="card number">
+
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+
+	
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Expiration date:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			<input name="card_expired", id="card_expired", placeholder="expired date">
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+
+	
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			ZIP Code:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>			
+			        		
+			<input name="card_zip", id="card_zip", placeholder="zip code">
+		
+			</div>	
+		</div>
+	</div>
+	<!-==============================->	
+
+
+	
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+			Pay now with your banking identity:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+				<input type="submit" class="banner_button">
+				</form>
+				<!--{{CONFRIM_CARD}}-->	
+			</div>
+		</div>
+	</div>
+
+
+</div>

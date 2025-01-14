@@ -1,0 +1,47 @@
+
+<div class='banner_cont'>
+
+
+	<div class='banner_row'>
+		<div class='banner_box'>
+        		Payment finish.
+		</div>
+	</div>
+
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		Payment status:
+		</div>
+		<div class='banner_half_box'>
+        		{{STATUS}}
+		</div>
+	</div>
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+        		Order detail send to:
+		</div>
+		<div class='banner_half_box'>
+        		{{EMAIL}}
+		</div>
+	</div>
+
+	<div class='banner_row'>
+		<div class='banner_box'>
+        	
+		</div>
+	</div>
+
+	<div class='banner_row'>
+		<div class='banner_half_box'>
+				Leave Shoping-Basket:
+		</div>
+		<div class='banner_half_box'>
+			<div class='banner_convertor'>
+        			{{HOME}}
+			</div>
+		</div>
+	</div>
+</div>
+

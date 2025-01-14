@@ -1,0 +1,47 @@
+<center>
+<div class='forum_center'>
+<div class='forum_cont'>
+
+
+	<div class='forum_row'>
+		<div class='forum_tittle_box'>
+        		Discuse Forum:
+		</div>
+	</div>
+
+	<div class='forum_row'>
+		<div class='forum_half_box'>
+				<form method="POST" action="/call_from_page">
+				<input name="user" id="forum" placeholder="User" >
+		</div>
+		<div class='forum_half_box'>
+			<div class='forum_convertor'>
+				<input type="submit">
+			</div>
+		</div>
+	</div>
+
+
+	<div class='forum_row'>
+		<div class='forum_in_box'>
+ 			<input name="text" id="forum" placeholder="Text" >
+			</form>
+		</div>
+	</div>
+
+
+
+	<div class='forum_row'>
+		<div class='forum_empty'>
+ 			
+		</div>
+	</div>
+
+
+
+	{{X}}	
+
+</div>
+</div>
+</center>
+
